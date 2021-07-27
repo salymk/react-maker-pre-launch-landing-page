@@ -23,7 +23,57 @@ section {
     margin: 0 1em;
 }
 
-// main {
-//     text-align: center;
-// }
+.hero-mobile {
+    width: 100%;
+}
 
+
+p {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    color: $clr-gray;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hero {
+    text-align: center;
+    font-style: normal;
+
+    h1 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+}
+
+.feature-container {
+}
+
+.pricing {
+    h2 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+
+.card-content {
+    h2 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .price-features {
+        p {
+            color: $clr-white
+        }
+    }
+}
