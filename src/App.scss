@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+// Colors
+
+$clr-cyan: #3EE9E5;
+$clr-blue: #093F68;
+$clr-gray: #777F98;
+$clr-white: #FFFFFF;
+$clr-black: #080C20;
+$clr-red: #FF2965;
+
+// Font
+$primary-font: 'Manrope', sans-serif;
+
+body {
+    margin: 0;
+    background-color: $clr-black;
+    color: $clr-white;
+    font-family: $primary-font;
+}
+
+section {
+    margin: 0 1em;
+}
+
+// main {
+//     text-align: center;
+// }
+
