@@ -1,4 +1,5 @@
 import './App.scss';
+import heroMobile from './assets/illustration-hero-mobile.png';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <main>
         <section className="hero">
           <div className="container">
+            <img className="hero-mobile" src={heroMobile} alt="hero mobile" />
             <h1> Get paid for the work you love to do.</h1>
             <p>
               The 9-5 grind is so last century. We believe in living life on
@@ -491,14 +493,14 @@ function App() {
                 </g>
               </svg>
               <div className="card-header">
-                <h4>Dip your toe</h4>
+                <h3>Dip your toe</h3>
                 <p>
                   Just getting started? No problem at all! Our free plan will
                   take you a long way.
                 </p>
               </div>
               <div className="card-content">
-                <h3>Free</h3>
+                <h2>Free</h2>
                 <div className="price-features">
                   <p>Unlimited products</p>
                   <p>Basic analytics</p>
@@ -517,14 +519,14 @@ function App() {
                 </g>
               </svg>
               <div className="card-header">
-                <h4>Dive right in</h4>
+                <h3>Dive right in</h3>
                 <p>
                   Ready for the big time? Our paid plan will help you take your
                   business to the next level.
                 </p>
               </div>
               <div className="card-content">
-                <h3>$25.00 /month</h3>
+                <h2>$25.00 /month</h2>
                 <div className="price-features">
                   <p>Custom domain</p>
                   <p>Advanced analytics and reports</p>
