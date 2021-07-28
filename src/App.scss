@@ -12,6 +12,9 @@ $clr-red: #FF2965;
 // Font
 $primary-font: 'Manrope', sans-serif;
 
+
+/* Base styles */
+
 body {
     margin: 0;
     background-color: $clr-black;
@@ -49,6 +52,8 @@ h3 {
     line-height: 25px;
 }
 
+/* Hero section */
+
 .hero {
     text-align: center;
     font-style: normal;
@@ -75,6 +80,8 @@ h3 {
     }
 }
 
+/* Features section */
+
 .features {
     text-align: center;
     margin-bottom: 7em;
@@ -99,6 +106,9 @@ h3 {
         }
     }
 }
+
+
+/* Prcing section */
 
 .card-content {
     h2 {
