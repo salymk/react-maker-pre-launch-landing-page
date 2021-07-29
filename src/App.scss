@@ -159,6 +159,10 @@ h3 {
 
         }
 
+        .pricing-card {
+            max-width: 327px;
+        }
+
         .pricing-card:last-child {
             position: relative;
             background-color: $clr-cyan;
