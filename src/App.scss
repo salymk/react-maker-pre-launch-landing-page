@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+// @import url('src/assets/bg-footer-squiggle.svg');
 
 // Colors
 
@@ -244,4 +245,56 @@ h3 {
             color: $clr-white
         }
     }
+}
+
+
+/* Prcing section */
+
+.cta {
+    text-align: center;
+    margin-bottom: 7em;
+
+    h2 {
+        padding: .8em;
+        background-image: url('./assets/bg-footer-squiggle.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+
+        input {
+            padding: .9em;
+            border-radius: 2em;
+            border: 0px;
+            background-color: $clr-blue;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        input::placeholder {
+            color: $clr-white;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            margin-left: 2em;
+        }
+
+        button {
+            padding: .9em;
+            margin-top: 2em;
+            border-radius: 2em;
+            border: 0px;
+            background-color: $clr-cyan;
+            text-align: center;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 25px;
+            color: $clr-blue;
+        }
+    }
+
 }
