@@ -588,7 +588,9 @@ function App() {
                 </p>
               </div>
               <div className="card-content">
-                <h2>$25.00 /month</h2>
+                <h2>
+                  $25.00 <span>/month</span>
+                </h2>
                 <div className="price-features">
                   <div>
                     <svg
