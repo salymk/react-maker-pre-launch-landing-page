@@ -118,6 +118,9 @@ h3 {
     }
 
     .pricing-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         .pricing-card:first-child {
             position: relative;
