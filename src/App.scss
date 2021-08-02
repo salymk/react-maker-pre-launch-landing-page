@@ -302,3 +302,38 @@ h3 {
     }
 
 }
+
+@media screen and (max-width: 767px) {
+    .bg-hero-squiggle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        text-align: left;
+        padding: 3em 0 4em 3em;
+    }   
+
+    .hero {
+
+        .bg-hero-squiggle {
+            max-width: 415px;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 457px;
+            margin: 0 auto;
+
+            p {
+                padding: 0;
+            }
+        }
+    }
+}
