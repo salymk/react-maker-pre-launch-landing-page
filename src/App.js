@@ -1,5 +1,6 @@
 import './App.scss';
 import heroMobile from './assets/illustration-hero-mobile.png';
+import bgHeroSquiggleSVG from './assets/bg-hero-squiggle.svg';
 import passionsSVG from './assets/illustration-passions.svg';
 import financialFreedomSVG from './assets/illustration-financial-freedom.svg';
 import workAnywhereSVG from './assets/illustration-work-anywhere.svg';
@@ -28,6 +29,12 @@ function App() {
         <section className="hero">
           <div className="container">
             <img className="hero-mobile" src={heroMobile} alt="hero mobile" />
+            <img
+              className="bg-hero-squiggle"
+              src={bgHeroSquiggleSVG}
+              alt="Background hero squiggle"
+            />
+
             <h1>
               Get paid for the work you <span>love</span> to do.
             </h1>
