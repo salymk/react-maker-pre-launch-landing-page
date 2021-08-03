@@ -96,7 +96,11 @@ function App() {
             <div>
               <div className="svg-container">
                 <div className="svg-background" />
-                <img src={financialFreedomSVG} alt="Gain financial freedom" />
+                <img
+                  className="financial-svg"
+                  src={financialFreedomSVG}
+                  alt="Gain financial freedom"
+                />
               </div>
             </div>
             <div className="feature-content">
@@ -111,7 +115,11 @@ function App() {
             <div>
               <div className="svg-container">
                 <div className="svg-background" />
-                <img src={lifeStyleSVG} alt="Choose your lifestyle" />
+                <img
+                  className="lifestyle-svg"
+                  src={lifeStyleSVG}
+                  alt="Choose your lifestyle"
+                />
               </div>
             </div>
             <div className="feature-content">
@@ -126,7 +134,11 @@ function App() {
             <div>
               <div className="svg-container">
                 <div className="svg-background" />
-                <img src={workAnywhereSVG} alt="Work from anywhere" />
+                <img
+                  className="work-svg"
+                  src={workAnywhereSVG}
+                  alt="Work from anywhere"
+                />
               </div>
             </div>
             <div className="feature-content">
