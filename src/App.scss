@@ -317,6 +317,26 @@ h3 {
 
     .hero {
 
+        .hero-mobile {
+            display: none;
+        }
+
+        .bg-hero-left {
+            position: absolute;
+            width: 313.71px;
+            height: 354.37px;
+            left: -169px;
+            top: 161.63px;
+        }
+
+        .bg-hero-right {
+            position: absolute;
+            width: 317px;
+            height: 356px;
+            left: 622px;
+            top: 160px;
+        }
+
         .bg-hero-squiggle {
             max-width: 415px;
             position: absolute;
@@ -335,5 +355,11 @@ h3 {
                 padding: 0;
             }
         }
+
+        // .hero-content {
+        //     background-image: url('./assets/bg-hero-squiggle.svg');
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+        // }
     }
 }
