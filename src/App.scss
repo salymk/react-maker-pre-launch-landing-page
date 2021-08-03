@@ -444,8 +444,11 @@ h3 {
 
         .feature-container:nth-child(1), .feature-container:nth-child(3) {
             margin-left: 4em;
-        }
+        }  
+    }
 
-       
+    .pricing-header {
+        max-width: 573px;
+        margin: 0 auto;
     }
 }
