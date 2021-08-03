@@ -75,7 +75,14 @@ function App() {
         </section>
         <section className="features">
           <div className="feature-container">
-            <img src={passionsSVG} alt="Indulge in your passion" />
+            <div className="svg-container">
+              <div className="svg-background" />
+              <img
+                className="passion-svg"
+                src={passionsSVG}
+                alt="Indulge in your passion"
+              />
+            </div>
             <h3> Indulge your passions</h3>
             <p>
               Your passions shouldn't be just for the weekend. Earn a living
@@ -83,7 +90,10 @@ function App() {
             </p>
           </div>
           <div className="feature-container">
-            <img src={financialFreedomSVG} alt="Gain financial freedom" />
+            <div className="svg-container">
+              <div className="svg-background" />
+              <img src={financialFreedomSVG} alt="Gain financial freedom" />
+            </div>
             <h3> Gain financial freedom</h3>
             <p>
               Start making money work for you. There’s nothing quite like
@@ -91,7 +101,10 @@ function App() {
             </p>
           </div>
           <div className="feature-container">
-            <img src={lifeStyleSVG} alt="Choose your lifestyle" />
+            <div className="svg-container">
+              <div className="svg-background" />
+              <img src={lifeStyleSVG} alt="Choose your lifestyle" />
+            </div>
             <h3>Choose your lifestyle</h3>
             <p>
               Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
@@ -99,7 +112,10 @@ function App() {
             </p>
           </div>
           <div className="feature-container">
-            <img src={workAnywhereSVG} alt="Work from anywhere" />
+            <div className="svg-container">
+              <div className="svg-background" />
+              <img src={workAnywhereSVG} alt="Work from anywhere" />
+            </div>
             <h3> Work from anywhere</h3>
             <p>
               Selling online means not being pinned down. Want to work AND

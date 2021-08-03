@@ -88,14 +88,46 @@ h3 {
     padding: 0 24px;
 
     .feature-container {
-        margin-bottom: 4em;
+        margin-bottom: 6em;
+
+        .svg-container { 
+            margin-bottom: 4em;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .svg-background {
+                border: 1px solid #093F68;
+                border-radius: 3em;
+                background: #093F68;
+                padding: 1.5em 2em;
+                position: absolute;
+                width: 120px;
+                height: 124px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                padding: 1em;
+
+            }
+
+            .passion-svg {
+                margin-left: 0.7em;
+            }
+
+        }
 
         img {
-            border: 1px solid $clr-blue;
-            border-radius: 3em;
-            background: $clr-blue;
-            padding: 1.5em 2em;  
-            margin-bottom: 1em;
+            // border: 1px solid $clr-blue;
+            // border-radius: 3em;
+            // background: $clr-blue;
+            // padding: 1.5em 2em;  
+            // margin-bottom: 1em;
+
+            position: relative;
         }
 
         h3 {
@@ -316,6 +348,10 @@ h3 {
     }   
 
     .hero {
+
+        h1 {
+            position: relative;
+        }
 
         .hero-mobile {
             display: none;
