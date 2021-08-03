@@ -108,9 +108,11 @@ function App() {
             </div>
           </div>
           <div className="feature-container">
-            <div className="svg-container">
-              <div className="svg-background" />
-              <img src={lifeStyleSVG} alt="Choose your lifestyle" />
+            <div>
+              <div className="svg-container">
+                <div className="svg-background" />
+                <img src={lifeStyleSVG} alt="Choose your lifestyle" />
+              </div>
             </div>
             <div className="feature-content">
               <h3>Choose your lifestyle</h3>
@@ -121,9 +123,11 @@ function App() {
             </div>
           </div>
           <div className="feature-container">
-            <div className="svg-container">
-              <div className="svg-background" />
-              <img src={workAnywhereSVG} alt="Work from anywhere" />
+            <div>
+              <div className="svg-container">
+                <div className="svg-background" />
+                <img src={workAnywhereSVG} alt="Work from anywhere" />
+              </div>
             </div>
             <div className="feature-content">
               <h3> Work from anywhere</h3>
