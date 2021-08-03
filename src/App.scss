@@ -33,7 +33,7 @@ main {
 }
 
 .hero-mobile {
-    width: 100%;
+    width: 115%;
 }
 
 
@@ -349,6 +349,14 @@ h3 {
 
 @media screen and (max-width: 767px) {
     .bg-hero-squiggle {
+        display: none;
+    }
+
+    .bg-hero-left {
+        display: none;
+    }
+
+    .bg-hero-right {
         display: none;
     }
 }
