@@ -447,8 +447,24 @@ h3 {
         }  
     }
 
-    .pricing-header {
-        max-width: 573px;
-        margin: 0 auto;
-    }
+
+    .pricing {
+
+        .pricing-header {
+            max-width: 573px;
+            margin: 0 auto;
+        }
+
+        .pricing-container {
+
+            .pricing-card:first-child {
+                max-width: 445px;
+            }
+
+            .pricing-card:last-child {
+                max-width: 445px;
+            }
+        } 
+        
+    } 
 }
