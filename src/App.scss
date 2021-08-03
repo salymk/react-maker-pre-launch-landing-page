@@ -28,6 +28,9 @@ header {
     padding: 3em 0 4em 0;
 }
 
+main {
+    overflow: hidden;
+}
 
 .hero-mobile {
     width: 100%;
@@ -58,6 +61,7 @@ h3 {
     text-align: center;
     font-style: normal;
     margin-bottom: 7em;
+    position: relative;
 
     h1 {
         font-weight: 800;
@@ -101,15 +105,9 @@ h3 {
                 border: 1px solid #093F68;
                 border-radius: 3em;
                 background: #093F68;
-                padding: 1.5em 2em;
                 position: absolute;
                 width: 120px;
                 height: 124px;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                text-align: center;
                 padding: 1em;
 
             }
@@ -362,15 +360,15 @@ h3 {
             width: 313.71px;
             height: 354.37px;
             left: -169px;
-            top: 161.63px;
+            top: 0;
         }
 
         .bg-hero-right {
             position: absolute;
             width: 317px;
             height: 356px;
-            left: 622px;
-            top: 160px;
+            right: -169px;
+            top: 0px;
         }
 
         .bg-hero-squiggle {
