@@ -325,6 +325,7 @@ h3 {
             font-weight: 800;
             font-size: 15px;
             line-height: 25px;
+            height: min-content;
         }
 
         input::placeholder {
@@ -425,6 +426,7 @@ h3 {
         align-items: flex-start;
         // margin-left: 3em;
         padding-top: 7em;
+        padding-bottom: 7em;
 
 
         .feature-container {
@@ -475,4 +477,23 @@ h3 {
         } 
         
     } 
+
+    .cta {
+
+        .form {
+            flex-direction: row;
+            align-items: baseline;
+            width: 520px;
+            margin: auto;
+
+            input {
+                width: 300px;
+            }
+
+            button {
+                width: 145px;
+                margin-left: 1em;
+            }
+        }
+    }
 }
