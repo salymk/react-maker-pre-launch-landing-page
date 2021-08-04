@@ -417,31 +417,33 @@ h3 {
         }
     }
 
-    .features {        
+    .features {  
+        max-width: 600px;
+        margin: 0 auto;      
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 3em;
+        // margin-left: 3em;
         padding-top: 7em;
 
 
         .feature-container {
             max-width: 515px;
-            display: grid;
-            grid-template-columns: 1fr 2fr;
+            display: flex;
+            flex-direction: row;
             align-items: center;
             text-align: left;
             margin-bottom: 2.5em;
-
-            // div {
-            //     justify-self: flex-start;
-            // }
 
             .svg-container {
                 margin-bottom: 0;
             }
 
             .feature-content {
+                margin-left: 4em;
+            }
+
+            .feature-svg-container {
                 margin-left: 2em;
             }
         }
