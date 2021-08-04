@@ -322,10 +322,16 @@ function App() {
         </section>
         <section className="cta">
           <h2>Get notified when we launch</h2>
-          <div className="form">
-            <input placeholder="Email address" />
+          <form className="form">
+            <input
+              name="email"
+              type="email"
+              autoComplete="email"
+              required
+              placeholder="Email address"
+            />
             <button type="submit"> Get notified</button>
-          </div>
+          </form>
         </section>
       </main>
     </>
