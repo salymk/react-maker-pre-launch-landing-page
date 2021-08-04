@@ -74,7 +74,7 @@ function App() {
         </section>
         <section className="features">
           <div className="feature-container">
-            <div>
+            <div className="feature-svg-container">
               <div className="svg-container">
                 <div className="svg-background" />
                 <img
@@ -93,7 +93,7 @@ function App() {
             </div>
           </div>
           <div className="feature-container">
-            <div>
+            <div className="feature-svg-container">
               <div className="svg-container">
                 <div className="svg-background" />
                 <img
@@ -112,7 +112,7 @@ function App() {
             </div>
           </div>
           <div className="feature-container">
-            <div>
+            <div className="feature-svg-container">
               <div className="svg-container">
                 <div className="svg-background" />
                 <img
@@ -131,7 +131,7 @@ function App() {
             </div>
           </div>
           <div className="feature-container">
-            <div>
+            <div className="feature-svg-container">
               <div className="svg-container">
                 <div className="svg-background" />
                 <img
