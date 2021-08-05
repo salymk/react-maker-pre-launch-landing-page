@@ -3,6 +3,7 @@ import heroMobile from './assets/illustration-hero-mobile.png';
 import bgHeroSquiggleSVG from './assets/bg-hero-squiggle.svg';
 import bgHeroLeftSVG from './assets/illustration-hero-left.svg';
 import bgHeroRightSVG from './assets/illustration-hero-right.svg';
+import bgFooterSquiggle from './assets/bg-footer-squiggle.svg';
 
 import passionsSVG from './assets/illustration-passions.svg';
 import financialFreedomSVG from './assets/illustration-financial-freedom.svg';
@@ -321,6 +322,11 @@ function App() {
           </div>
         </section>
         <section className="cta">
+          <img
+            className="bg-footer-squiggle"
+            src={bgFooterSquiggle}
+            alt="Background footer squiggle"
+          />
           <h2>Get notified when we launch</h2>
           <form className="form">
             <input
