@@ -307,9 +307,7 @@ h3 {
 
     h2 {
         padding: .8em;
-        background-image: url('./assets/bg-footer-squiggle.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        position: relative;
     }
 
     .form {
@@ -353,6 +351,8 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+
+
     .bg-hero-squiggle {
         display: none;
     }
@@ -363,6 +363,13 @@ h3 {
 
     .bg-hero-right {
         display: none;
+    }
+
+    .bg-footer-squiggle {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        left: 0;
     }
 }
 
@@ -479,6 +486,17 @@ h3 {
     } 
 
     .cta {
+        position: relative;
+
+        .bg-footer-squiggle {
+            max-width: 415px;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
 
         .form {
             flex-direction: row;
