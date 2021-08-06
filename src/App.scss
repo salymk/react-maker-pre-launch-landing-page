@@ -539,3 +539,18 @@ h3 {
         left: 0;
     }   
 }
+
+@media screen and (min-width: 1440px){
+
+    header {
+        padding: 81px 0 114px 165px;
+    }
+
+    .hero {
+        
+        .container  {
+            max-width: 730px;
+            margin: 0 auto;
+        }
+    }
+}
