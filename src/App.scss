@@ -504,10 +504,11 @@ h3 {
 
         .bg-footer-squiggle {
             position: absolute;
-            max-width: 1022px;
+            max-width: 1024px;
             margin: 0 auto;
             right: 0;
-            left: 0;
+            left: -245px;
+            margin-top: -2em;
         }
 
         .form {
@@ -530,4 +531,11 @@ h3 {
             }
         }
     }
+}
+
+
+@media screen and (min-width: 1024px){
+    .cta .bg-footer-squiggle {
+        left: 0;
+    }   
 }
