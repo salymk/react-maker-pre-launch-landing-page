@@ -549,6 +549,11 @@ h3 {
     .hero {
         margin-top: 114px;
 
+        h1 {
+            font-size: 48px;
+            line-height: 56px;
+        }
+
         .bg-hero-right {
             position: absolute;
             width: 396px;
@@ -566,16 +571,13 @@ h3 {
         }
 
         .bg-hero-squiggle {
-            max-width: 1000px;
-            height: 377.98px;
+            max-width: 600px;
             position: absolute;
             margin-left: auto;
             margin-right: auto;
             left: 0;
             right: 0;
             text-align: center;
-            margin-top: -7em;
-            margin-right: 25em;
         }
         
         .container  {
