@@ -305,6 +305,16 @@ h3 {
     text-align: center;
     margin-bottom: 7em;
 
+    .bg-footer-squiggle {
+        position: absolute;
+        max-width: 700px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: 1em;
+
+    }
+
     h2 {
         padding: .8em;
         position: relative;
@@ -488,14 +498,16 @@ h3 {
     .cta {
         position: relative;
 
+        h2 {
+            padding: 0;
+        }
+
         .bg-footer-squiggle {
-            max-width: 415px;
             position: absolute;
-            margin-left: auto;
-            margin-right: auto;
-            left: 0;
+            max-width: 1022px;
+            margin: 0 auto;
             right: 0;
-            text-align: center;
+            left: 0;
         }
 
         .form {
@@ -504,13 +516,17 @@ h3 {
             width: 520px;
             margin: auto;
 
+            padding: 0;
+
             input {
                 width: 300px;
             }
 
             button {
+                position: relative;
                 width: 145px;
                 margin-left: 1em;
+                margin-top: 0;
             }
         }
     }
