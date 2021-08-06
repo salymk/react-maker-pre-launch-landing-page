@@ -543,10 +543,40 @@ h3 {
 @media screen and (min-width: 1440px){
 
     header {
-        padding: 81px 0 114px 165px;
+        padding: 81px 0 0 165px;
     }
 
     .hero {
+        margin-top: 114px;
+
+        .bg-hero-right {
+            position: absolute;
+            width: 396px;
+            height: 444px;
+            right: -53px;
+            top: 0;
+        }
+
+        .bg-hero-left {
+            position: absolute;
+            width: 408px;
+            height: 459px;
+            left: -53px;
+            top: 0;
+        }
+
+        .bg-hero-squiggle {
+            max-width: 1000px;
+            height: 377.98px;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin-top: -7em;
+            margin-right: 25em;
+        }
         
         .container  {
             max-width: 730px;
