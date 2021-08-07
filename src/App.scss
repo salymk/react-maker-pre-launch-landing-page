@@ -651,4 +651,43 @@ h3 {
 
         }
     }
+
+    .pricing {
+        .pricing-header {
+            h2 {
+                font-size: 32px;
+                line-height: 44px;
+            }
+        }
+
+        .pricing-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 920px;
+            margin: auto;
+
+            .pricing-card:first-child {
+                margin-right: 1em;
+                height: 448px;
+            }
+
+            .pricing-card:last-child {
+                margin-left: 1em;
+                height: 482px;
+            }
+        }
+    }
+
+    .cta {
+        h2 {
+            font-size: 32px;
+            line-height: 44px;
+        }
+
+        .bg-footer-squiggle {
+            max-width: 1664.13px;
+
+        }
+    }
 }
