@@ -554,6 +554,10 @@ h3 {
             line-height: 56px;
         }
 
+        svg {
+            padding-top: 64px;
+        }
+
         .bg-hero-right {
             position: absolute;
             width: 396px;
@@ -583,6 +587,38 @@ h3 {
         .container  {
             max-width: 730px;
             margin: 0 auto;
+        }
+    }
+
+    .features {
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 7em;
+        padding-bottom: 7em;
+        align-items: baseline;
+
+
+        .feature-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 0;
+
+            .feature-content, .feature-svg-container {
+                margin-left: 0;
+            }
+
+            .feature-svg-container {
+                margin-bottom: 3em;
+            }
+        
+        }
+
+        .feature-container:nth-child(1), .feature-container:nth-child(3) {
+            margin-left: 0;
         }
     }
 }
