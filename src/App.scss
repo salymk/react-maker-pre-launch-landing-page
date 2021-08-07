@@ -597,15 +597,43 @@ h3 {
         flex-direction: row;
         padding-top: 7em;
         padding-bottom: 7em;
-        align-items: baseline;
 
 
         .feature-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
+            align-items: end;
+            text-align: left;
             margin-bottom: 0;
+            padding: 1em;
+            height: 400px;
+
+
+            .svg-container {
+
+
+                .svg-background {
+                    width: 125px;
+                    height: 130px;         
+    
+                }    
+
+                .passion-svg {
+                    height: 106px;
+                }
+    
+                .financial-svg {
+                    height: 89px;
+                }
+    
+                .lifestyle-svg {
+                    height: 94px;
+                }
+    
+                .work-svg {
+                    height: 74px;
+                }
+            }
 
             .feature-content, .feature-svg-container {
                 margin-left: 0;
@@ -613,12 +641,15 @@ h3 {
 
             .feature-svg-container {
                 margin-bottom: 3em;
+                margin-left: 2em;
             }
         
         }
 
         .feature-container:nth-child(1), .feature-container:nth-child(3) {
             margin-left: 0;
+            margin-top: -3em;
+
         }
     }
 }
