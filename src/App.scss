@@ -25,7 +25,7 @@ body {
 
 header {
     text-align: center;
-    padding: 3em 0 4em 0;
+    padding: 40px 0 65px 0;
 }
 
 main {
@@ -88,7 +88,7 @@ h3 {
 
 .features {
     text-align: center;
-    margin-bottom: 7em;
+    margin-bottom: 114px;
     padding: 0 24px;
 
     .feature-container {
@@ -133,12 +133,6 @@ h3 {
         }
 
         img {
-            // border: 1px solid $clr-blue;
-            // border-radius: 3em;
-            // background: $clr-blue;
-            // padding: 1.5em 2em;  
-            // margin-bottom: 1em;
-
             position: relative;
         }
 
@@ -153,7 +147,7 @@ h3 {
 
 .pricing {
     padding: 0 24px;
-    margin-bottom: 4em;
+    margin-bottom: 144px;
 
 
     .pricing-header {
@@ -224,7 +218,6 @@ h3 {
             position: relative;
             background-color: $clr-cyan;
             padding: 2em 2em 1em;
-            margin-bottom: 3em;
             border-radius: .7em;
             color: $clr-black;
             height: 448px;
@@ -305,7 +298,7 @@ h3 {
 
 .cta {
     text-align: center;
-    margin-bottom: 7em;
+     margin-bottom: 164px;
 
     .bg-footer-squiggle {
         position: absolute;
@@ -390,7 +383,8 @@ h3 {
 @media screen and (min-width: 768px) {
     header {
         text-align: left;
-        padding: 3em 0 4em 3em;
+        padding: 48px 0 77px 39px;
+
     }   
 
     .hero {
@@ -549,12 +543,10 @@ h3 {
 @media screen and (min-width: 1440px){
 
     header {
-        padding: 81px 0 0 165px;
+        padding: 81px 0 114px 165px;
     }
 
     .hero {
-        margin-top: 114px;
-
         h1 {
             font-size: 48px;
             line-height: 56px;
@@ -680,6 +672,7 @@ h3 {
 
             .pricing-card:last-child {
                 margin-left: 1em;
+                margin-bottom: 3em;
                 height: 482px;
             }
         }
