@@ -1,5 +1,5 @@
 import './App.scss';
-import bgFooterSquiggle from './assets/bg-footer-squiggle.svg';
+import CTA from './components/cta';
 import Features from './components/features';
 
 import Header from './components/header';
@@ -14,24 +14,7 @@ function App() {
         <Hero />
         <Features />
         <Pricing />
-        <section className="cta">
-          <img
-            className="bg-footer-squiggle"
-            src={bgFooterSquiggle}
-            alt="Background footer squiggle"
-          />
-          <h2>Get notified when we launch</h2>
-          <form className="form">
-            <input
-              name="email"
-              type="email"
-              autoComplete="email"
-              required
-              placeholder="Email address"
-            />
-            <button type="submit"> Get notified</button>
-          </form>
-        </section>
+        <CTA />
       </main>
     </>
   );
