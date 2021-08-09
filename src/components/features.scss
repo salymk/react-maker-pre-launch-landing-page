@@ -1,0 +1,130 @@
+.feature-container {
+    margin-bottom: 6em;
+
+    .svg-container { 
+        margin-bottom: 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .svg-background {
+            border: 1px solid #093F68;
+            border-radius: 3em;
+            background: #093F68;
+            position: absolute;
+            width: 95px;
+            height: 100px;            
+            padding: 1em;
+
+        }
+
+        .passion-svg {
+            margin-left: 0.7em;
+            height: 80px;
+        }
+
+        .financial-svg {
+            height: 67px;
+        }
+
+        .lifestyle-svg {
+            height: 71px;
+        }
+
+        .work-svg {
+            height: 56px;
+        }
+
+
+    }
+
+    img {
+        position: relative;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .feature-container {
+        max-width: 515px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 2.5em;
+
+        .svg-container {
+            margin-bottom: 0;
+        }
+
+        .feature-content {
+            margin-left: 4em;
+        }
+
+        .feature-svg-container {
+            margin-left: 2em;
+        }
+    }
+
+    .feature-container:nth-child(1), .feature-container:nth-child(3) {
+        margin-left: 4em;
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    .feature-container {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: left;
+        margin-bottom: 0;
+        padding: 1em;
+
+
+        .svg-container {
+
+
+            .svg-background {
+                width: 125px;
+                height: 130px;         
+
+            }    
+
+            .passion-svg {
+                height: 106px;
+            }
+
+            .financial-svg {
+                height: 89px;
+            }
+
+            .lifestyle-svg {
+                height: 94px;
+            }
+
+            .work-svg {
+                height: 74px;
+            }
+        }
+
+        .feature-content, .feature-svg-container {
+            margin-left: 0;
+        }
+
+        .feature-svg-container {
+            margin-bottom: 3em;
+            margin-left: 2em;
+        }
+    
+    }
+    
+    .feature-container:nth-child(1), .feature-container:nth-child(3) {
+        margin-left: 0;
+        margin-top: -4em;
+
+    }
+}
