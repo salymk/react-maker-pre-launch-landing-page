@@ -118,7 +118,6 @@ header {
             padding: 2em 2em 1em;
             margin-bottom: 4em;
             border-radius: .7em;
-            height: 436px;
 
             .pricing-svg {
                 position: absolute;
@@ -172,7 +171,6 @@ header {
             padding: 2em 2em 1em;
             border-radius: .7em;
             color: $clr-black;
-            height: 448px;
 
             .pricing-svg {
                 position: absolute;
@@ -410,12 +408,12 @@ header {
 
             .pricing-card:first-child {
                 max-width: 445px;
-                height: 425px;
+                
             }
 
             .pricing-card:last-child {
                 max-width: 445px;
-                height: 449px;
+                
             }
         } 
         
@@ -540,13 +538,13 @@ header {
 
             .pricing-card:first-child {
                 margin-right: 1em;
-                height: 448px;
+                
             }
 
             .pricing-card:last-child {
                 margin-left: 1em;
                 margin-bottom: 3em;
-                height: 482px;
+               
             }
         }
     }
