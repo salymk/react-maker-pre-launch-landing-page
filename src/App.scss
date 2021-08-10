@@ -145,17 +145,22 @@ header {
                 }
             }
 
+            .price-features {
+                margin-top: 1.5em;
+
+            }
+
             .price-features div {
                 display: flex;
                 flex-direction: row;
-                align-items: center;
+                align-items: baseline;
 
                 svg path {
                     fill: $clr-cyan
                 }
 
                 p {
-                    margin-left: 1em;
+                    margin: 0 0 1em 1em;
                 }
             }
 
@@ -168,7 +173,7 @@ header {
         .pricing-card:last-child {
             position: relative;
             background-color: $clr-cyan;
-            padding: 2em 2em 1em;
+            padding: 2em 2em 2.5em;
             border-radius: .7em;
             color: $clr-black;
 
@@ -211,17 +216,21 @@ header {
                 }
             }
 
+            .price-features {
+                margin-top: 1.5em;
+            }
+
             .price-features div {
                 display: flex;
                 flex-direction: row;
-                align-items: center;
+                align-items: baseline;
 
                 svg path {
                     fill: $clr-blue
                 }
 
                 p {
-                    margin-left: 1em;
+                    margin: 0 0 1em 1em;
                 }
             }
             
