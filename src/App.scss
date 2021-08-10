@@ -291,6 +291,9 @@ header {
             font-size: 15px;
             line-height: 25px;
             height: min-content;
+            outline: none;
+            border: 2px solid $clr-blue;
+            transition: 0.3s;
         }
 
         input::placeholder {
@@ -298,6 +301,10 @@ header {
             mix-blend-mode: normal;
             opacity: 0.4;
             margin-left: 2em;
+        }
+
+        input:focus {
+            border: 2px solid $clr-cyan;   
         }
 
         button {
