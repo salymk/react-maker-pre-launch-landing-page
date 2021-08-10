@@ -282,6 +282,7 @@ header {
 
 
         input {
+            color: $clr-white;
             padding: .9em;
             border-radius: 2em;
             border: 0px;
@@ -304,14 +305,27 @@ header {
             padding: .9em;
             margin-top: 2em;
             border-radius: 2em;
-            border: 0px;
             background-color: $clr-cyan;
             text-align: center;
             font-weight: 800;
             font-size: 15px;
             line-height: 25px;
             color: $clr-blue;
+            border: 2px solid $clr-cyan;
+            transition: 0.3s;
         }
+
+        button:hover {
+            color: $clr-white;
+            background-color: $clr-blue;   
+        }
+
+        button:active {
+            color: $clr-white;
+            background-color: $clr-blue;   
+        }
+
+
     }
 
 }
