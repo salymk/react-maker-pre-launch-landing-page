@@ -8,6 +8,7 @@ This is a solution to the [Maker pre-launch landing page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Assests provided]
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -19,6 +20,8 @@ This is a solution to the [Maker pre-launch landing page challenge on Frontend M
 
 ### The challenge
 
+The challenge is to build out this pre-launch landing page and get it looking as close to the figam design as possible.
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -26,6 +29,14 @@ Users should be able to:
 - Receive an error message when the form is submitted if:
   - The `Email address` field is empty should show "Oops! Please add your email"
   - The email is not formatted correctly should show "Oops! That doesn’t look like an email address"
+
+### Assests provided
+
+- Sketch and Figma design files
+- Mobile, tablet & desktop layouts
+- Professional design system for colors, fonts, etc
+- Optimized image assets
+- HTML files with pre-written content
 
 ### Links
 
