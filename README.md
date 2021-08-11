@@ -8,14 +8,12 @@ This is a solution to the [Maker pre-launch landing page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,12 +26,6 @@ Users should be able to:
 - Receive an error message when the form is submitted if:
   - The `Email address` field is empty should show "Oops! Please add your email"
   - The email is not formatted correctly should show "Oops! That doesn’t look like an email address"
-
-### Screenshot
-
-![Design preview for the Maker pre-launch landing page desktop version](./pre-makr-landing-page--desktop.png)
-![Design preview for the Maker pre-launch landing page tablet version](./pre-makr-landing-page--tablet.png)
-![Design preview for the Maker pre-launch landing page mobile version](./pre-makr-landing-page--mobile.png)
 
 ### Links
 
@@ -54,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use formik for my input validation, formik allows you to create your own validator function, which I have down below or you can use a validator like Yup(Yup is a JavaScript schema builder for value parsing and validation.)
+I learned how to use Formik for my input validation. Formik allows you to create your validator function, which I have below. You can use a validator like Yup(a JavaScript schema builder for value parsing and validation.)
 
 ```js
 const validate = (values) => {
@@ -70,9 +62,9 @@ const validate = (values) => {
 }
 ```
 
-And then you have to pass the useFormik() hook initial form values, our custom validate function that will be called when
+And then, you have to pass the useFormik() hook initial form values, our custom validate function that is called when
 form values change or fields are blurred, and a submit function that will
-be called when the form is submitted.
+be when the form is submitted.
 
 ```js
 const formik = useFormik({
@@ -87,9 +79,9 @@ const formik = useFormik({
 });
 ```
 
-Then this hook returns to us a form state and helper methods in variable we call formik.
+Then this hook returns to us a form state and helper methods in a variable we call formik.
 
-For a simple email input field like this the only helper methods we need are handleSubmit(A submission handler),
+For a simple email input field like this, the only helper methods we need are handleSubmit(A submission handler),
 handleChange(A change handler to pass to our input field) and values(Our form’s current values).
 
 ```js
@@ -106,11 +98,11 @@ handleChange(A change handler to pass to our input field) and values(Our form’
 />
 ```
 
-If you want to learn more on how to use formik then check out the link in the Useful resources section
+If you want to learn more about using Formik, check out the link in the Useful resources section.
 
 ### Useful resources
 
-- [Formik Tutorial](https://formik.org/docs/tutorial) - This tutorial helped me pick formik really quickly, literally within half an hour I had my form validation set and ready to be used. I really liked formik and will use it going forward.
+- [Formik Tutorial](https://formik.org/docs/tutorial) - This tutorial helped me pick up Formik quickly. Literally, within half an hour, I had my form validation set and ready to be used. I like Formik and will use it going forward.
 
 ## Author
 
