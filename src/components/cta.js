@@ -26,8 +26,9 @@ const CTA = () => {
       email: '',
     },
     validate,
-    onSubmit: (values) => {
+    onSubmit: (values, onSubmitProps) => {
       alert(JSON.stringify(values, null, 2));
+      onSubmitProps.resetForm();
     },
   });
 
