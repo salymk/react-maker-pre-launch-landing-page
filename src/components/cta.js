@@ -46,17 +46,22 @@ const CTA = () => {
         }}
         className="form"
       >
-        <input
-          id="email"
-          name="email"
-          type="email"
-          autoComplete="email"
-          placeholder="Email address"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          value={formik.values.email}
-        />
-        {formik.errors.email ? <div>{formik.errors.email}</div> : null}
+        <div className="input-container">
+          <input
+            className={formik.errors.email ? 'input-error' : ''}
+            id="email"
+            name="email"
+            type="email"
+            autoComplete="email"
+            placeholder="Email address"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            value={formik.values.email}
+          />
+          {formik.errors.email ? (
+            <div className="input-error-message">{formik.errors.email}</div>
+          ) : null}
+        </div>
 
         <button type="submit">Get notified</button>
       </form>

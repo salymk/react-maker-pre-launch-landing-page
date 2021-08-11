@@ -307,6 +307,19 @@ header {
             border: 2px solid $clr-cyan;   
         }
 
+        .input-error {
+            border: 2px solid $clr-red;   
+        }
+        .input-error:focus {
+            border: 2px solid $clr-red;   
+        }
+
+        .input-error-message {
+            color: $clr-red;
+            padding-top: 1em;
+            font-size: 13px;
+        }
+
         button {
             cursor: pointer;
             padding: .9em;
