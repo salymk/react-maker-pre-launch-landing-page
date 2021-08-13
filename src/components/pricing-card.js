@@ -12,11 +12,11 @@ const PricingCard = (props) => (
       aria-hidden="true"
     />
     <div className="card-header">
-      <h3>{props.title}</h3>
+      <p className="title">{props.title}</p>
       <p>{props.description}</p>
     </div>
     <div className="card-content">
-      <h2>{props.price}</h2>
+      <p className="title">{props.price}</p>
       <div className="price-features">
         {props.features.map((feature) => (
           <div>

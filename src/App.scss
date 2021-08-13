@@ -131,6 +131,13 @@ header {
             .card-header {
                 margin-bottom: 1em;
 
+                .title {
+                    margin-top: 2em;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+
                 p {
                     font-weight: 200;
                 }
@@ -140,7 +147,7 @@ header {
                 margin-top: 1.5em;
                 margin-bottom: 0.5em;
 
-                h2 {
+                .title {
                     margin: 0;
                 }
             }
@@ -189,9 +196,11 @@ header {
             .card-header {
                 margin-bottom: 1em;
 
-                h3 {
+                .title {
                     margin-top: 2em;
-
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 25px;
                 }
 
                 p {
@@ -200,7 +209,7 @@ header {
             }
 
             .card-content {
-                h2 {
+                .title {
                     margin-top: 0;
                     margin-bottom: 0;
                     display: flex;
@@ -239,7 +248,7 @@ header {
 }
 
 .card-content {
-    h2 {
+    .title {
         font-weight: 800;
         font-size: 40px;
         line-height: 55px;
