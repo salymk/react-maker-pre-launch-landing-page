@@ -12,6 +12,7 @@ const FeatureContainer = (props) => (
           className={props.imgClassname}
           src={props.imgSrc}
           alt={props.imgAlt}
+          aria-hidden="true"
         />
       </div>
     </div>

@@ -10,6 +10,7 @@ const Hero = () => (
       className="bg-hero-left"
       src={bgHeroLeftSVG}
       alt="Background hero left"
+      aria-hidden="true"
     />
 
     <div className="container">
@@ -19,6 +20,7 @@ const Hero = () => (
           className="bg-hero-squiggle"
           src={bgHeroSquiggleSVG}
           alt="Background hero squiggle"
+          aria-hidden="true"
         />
 
         <h1>
@@ -30,7 +32,12 @@ const Hero = () => (
           side hustle, we’ve got you covered.
         </p>
         {/* Mouse svg */}
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="42">
+        <svg
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="42"
+        >
           <g fill="none" fillRule="evenodd" stroke="#3EE9E5" strokeWidth="2">
             <rect width="24" height="40" x="1" y="1" rx="12" />
             <rect width="4" height="4" x="11" y="12" rx="2" />
@@ -42,6 +49,7 @@ const Hero = () => (
       className="bg-hero-right"
       src={bgHeroRightSVG}
       alt="Background hero right"
+      aria-hidden="true"
     />
   </section>
 );

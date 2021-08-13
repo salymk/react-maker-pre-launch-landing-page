@@ -38,6 +38,7 @@ const CTA = () => {
         className="bg-footer-squiggle"
         src={bgFooterSquiggle}
         alt="Background footer squiggle"
+        aria-hidden="true"
       />
       <h2>Get notified when we launch</h2>
       <form
