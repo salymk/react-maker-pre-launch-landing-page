@@ -50,6 +50,7 @@ const CTA = () => {
       >
         <div className="input-container">
           <input
+            aria-describedby="input-error-message"
             className={formik.errors.email ? 'input-error' : ''}
             id="email"
             name="email"
@@ -61,7 +62,13 @@ const CTA = () => {
             value={formik.values.email}
           />
           {formik.errors.email ? (
-            <div className="input-error-message">{formik.errors.email}</div>
+            <div
+              id="input-error-message"
+              aria-live="polite"
+              className="input-error-message"
+            >
+              {formik.errors.email}
+            </div>
           ) : null}
         </div>
 
