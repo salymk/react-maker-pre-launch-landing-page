@@ -17,7 +17,7 @@ const FeatureContainer = (props) => (
       </div>
     </div>
     <div className="feature-content">
-      <h3>{props.title}</h3>
+      <p className="title">{props.title}</p>
       <p>{props.description}</p>
     </div>
   </div>
