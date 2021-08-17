@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import { useFormik } from 'formik';
@@ -49,6 +50,9 @@ const CTA = () => {
         className="form"
       >
         <div className="input-container">
+          <label htmlFor="Email" className="sr-only">
+            Email
+          </label>
           <input
             aria-describedby="input-error-message"
             className={formik.errors.email ? 'input-error' : ''}
@@ -61,6 +65,7 @@ const CTA = () => {
             onBlur={formik.handleBlur}
             value={formik.values.email}
           />
+
           {formik.errors.email ? (
             <div
               id="input-error-message"
