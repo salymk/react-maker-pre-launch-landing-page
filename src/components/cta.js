@@ -77,7 +77,12 @@ const CTA = () => {
           ) : null}
         </div>
 
-        <button type="submit">Get notified</button>
+        <button
+          aria-label="Submit your email to get notified when we launch"
+          type="submit"
+        >
+          Get notified
+        </button>
       </form>
     </section>
   );
