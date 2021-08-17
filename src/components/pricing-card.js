@@ -19,7 +19,7 @@ const PricingCard = (props) => (
       <p className="title">{props.price}</p>
       <div className="price-features">
         {props.features.map((feature) => (
-          <div>
+          <div key={feature}>
             <svg
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
