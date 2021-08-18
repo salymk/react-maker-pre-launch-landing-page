@@ -69,7 +69,9 @@ const CTA = () => {
           {formik.errors.email ? (
             <div
               id="input-error-message"
-              aria-live="polite"
+              aria-live="assertive"
+              aria-atomic="true"
+              aria-relevant="additions"
               className="input-error-message"
             >
               {formik.errors.email}
