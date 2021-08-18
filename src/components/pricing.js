@@ -43,7 +43,8 @@ const Pricing = () => (
         imgAlt="Paid pricing"
         title="Dive right in"
         description="Ready for the big time? Our paid plan will help you take your business to the next level."
-        price="Paid"
+        price="$25.00"
+        billing=" / monthly"
         features={paidFeatures}
       />
     </div>

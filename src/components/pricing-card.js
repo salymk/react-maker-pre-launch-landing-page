@@ -16,7 +16,10 @@ const PricingCard = (props) => (
       <p>{props.description}</p>
     </div>
     <div className="card-content">
-      <p className="title">{props.price}</p>
+      <p className="title">
+        {props.price}
+        <span>{props.billing}</span>
+      </p>
       <div className="price-features">
         {props.features.map((feature) => (
           <div key={feature}>
