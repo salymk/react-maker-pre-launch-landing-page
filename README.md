@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/react-maker-prelaunch-landing-page-bvaYJN00Z)
 - Live Site URL: [https://react-maker-pre-launch-landing-page.vercel.app/](https://react-maker-pre-launch-landing-page.vercel.app/)
 
 ## My process
@@ -49,6 +49,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - SCSS Variables
+- BEM CSS Naming Pattern
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
